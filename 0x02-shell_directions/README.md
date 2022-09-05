@@ -1,1 +1,1 @@
-this test is brain cracking
+echo 'this test is brain cracking'
