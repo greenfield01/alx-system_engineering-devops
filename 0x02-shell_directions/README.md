@@ -1,1 +1,2 @@
-echo 'this test is brain cracking'
+#!/bin/bash
+echo "this test is brain cracking"
