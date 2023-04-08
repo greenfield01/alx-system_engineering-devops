@@ -21,7 +21,7 @@ frontend www-http
    default_backend www-backend
 
 frontend www-https
-    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/get-daniel.tech.pem
+    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/codenet.tech.pem
     http-request set-header X-Forwarded-Proto https
     redirect scheme https code 301 if !{ ssl_fc }
     default_backend www-backend

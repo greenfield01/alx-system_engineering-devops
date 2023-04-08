@@ -17,7 +17,7 @@ defaults
 
 frontend www-https
     bind   0.0.0.0:80
-    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/get-daniel.tech.pem
+    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/codenet.tech.pem
     redirect scheme https if !{ ssl_fc }
     stats uri /haproxy?stats
     option forwardfor
